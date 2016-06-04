@@ -36,7 +36,7 @@ defmodule Watch.Mixfile do
      {:phoenix_html, "~> 2.4"},
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.9"},
-     {:mix_test_watch, "~> 0.2", only: :dev},
+     {:mix_test_watch, only: :dev, git: "git@github.com:lpil/mix-test.watch.git"},
      {:cowboy, "~> 1.0"}]
   end
 
